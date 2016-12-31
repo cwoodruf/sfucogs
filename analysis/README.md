@@ -4,7 +4,7 @@ The main starting point is the *buildmastertable.py* script.
 
 This script intiates making the container for the player game statistics and filling it with values.
 The values are created by field classes in the bflfields directory. Which fields are included
-in a given table is determined in the <literal>__init__.py</literal> file. Changing the list will include or 
+in a given table is determined in the <pre>__init__.py</pre> file. Changing the list will include or 
 exclude fields in the resulting table.
 
 The container table consists of one row per game for each surveyed player.
