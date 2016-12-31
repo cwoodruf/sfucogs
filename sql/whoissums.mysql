@@ -1,0 +1,21 @@
+CREATE TABLE `whoissums` (
+  `filename` varchar(128) CHARACTER SET utf8 NOT NULL DEFAULT '',
+  `raw_replay_path` varchar(255) CHARACTER SET utf8 NOT NULL DEFAULT '',
+  `player` int(11) DEFAULT NULL,
+  `game` int(11) DEFAULT NULL,
+  `events` int(11) DEFAULT '0',
+  `chat` int(11) DEFAULT '0',
+  `gameinfo` int(11) DEFAULT '0',
+  `game_length` time DEFAULT NULL,
+  `game_format` varchar(32) CHARACTER SET utf8 DEFAULT NULL,
+  `game_clients` varchar(128) CHARACTER SET utf8 DEFAULT NULL,
+  `game_date` datetime DEFAULT NULL,
+  `raw_replay_stub` varchar(255) DEFAULT NULL,
+  `raw_replay_start` int(11) DEFAULT NULL,
+  `raw_replay_len` int(11) DEFAULT NULL,
+  `raw_sha1` varchar(64) DEFAULT NULL,
+  `raw_size` int(11) DEFAULT NULL,
+  `fileext` varchar(8) DEFAULT NULL,
+  `fid` int(11) NOT NULL,
+  PRIMARY KEY (`fid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;

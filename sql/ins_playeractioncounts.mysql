@@ -1,0 +1,33 @@
+
+-- 
+-- assumes we made the bfl_playeractioncounts table and filled it with playerid, gameid, player, actiontype and the number of instances
+--
+
+create table bfl_playeractionpropcounts (playerid integer, gameid integer, player varbinary(128), total integer, a float, atk float, b float, Cancel float, f float, hk float, m float, mapAbl float, mapAtk float, mapRCClick float, rc float, sel float, seld float, tr float, u float, primary key (playerid,gameid,player));
+
+delete from bfl_playeractionpropcounts;
+
+insert into bfl_playeractionpropcounts (playerid, gameid, player, total) select playerid,gameid,player,sum(instances) from bfl_playeractioncounts group by playerid, gameid, player;
+
+update bfl_playeractionpropcounts a, bfl_playeractioncounts b set a.a=b.instances where a.gameid=b.gameid and a.playerid=b.playerid and a.player=b.player and b.actiontype='a';
+update bfl_playeractionpropcounts a, bfl_playeractioncounts b set a.atk=b.instances where a.gameid=b.gameid and a.playerid=b.playerid and a.player=b.player and b.actiontype='atk';
+update bfl_playeractionpropcounts a, bfl_playeractioncounts b set a.b=b.instances where a.gameid=b.gameid and a.playerid=b.playerid and a.player=b.player and b.actiontype='b';
+update bfl_playeractionpropcounts a, bfl_playeractioncounts b set a.Cancel=b.instances where a.gameid=b.gameid and a.playerid=b.playerid and a.player=b.player and b.actiontype='Cancel';
+update bfl_playeractionpropcounts a, bfl_playeractioncounts b set a.f=b.instances where a.gameid=b.gameid and a.playerid=b.playerid and a.player=b.player and b.actiontype='f';
+update bfl_playeractionpropcounts a, bfl_playeractioncounts b set a.hk=b.instances where a.gameid=b.gameid and a.playerid=b.playerid and a.player=b.player and b.actiontype='hk';
+update bfl_playeractionpropcounts a, bfl_playeractioncounts b set a.m=b.instances where a.gameid=b.gameid and a.playerid=b.playerid and a.player=b.player and b.actiontype='m';
+update bfl_playeractionpropcounts a, bfl_playeractioncounts b set a.mapAbl=b.instances where a.gameid=b.gameid and a.playerid=b.playerid and a.player=b.player and b.actiontype='mapAbl';
+update bfl_playeractionpropcounts a, bfl_playeractioncounts b set a.mapAtk=b.instances where a.gameid=b.gameid and a.playerid=b.playerid and a.player=b.player and b.actiontype='mapAtk';
+update bfl_playeractionpropcounts a, bfl_playeractioncounts b set a.mapRCClick=b.instances where a.gameid=b.gameid and a.playerid=b.playerid and a.player=b.player and b.actiontype='mapRCClick';
+update bfl_playeractionpropcounts a, bfl_playeractioncounts b set a.rc=b.instances where a.gameid=b.gameid and a.playerid=b.playerid and a.player=b.player and b.actiontype='rc';
+update bfl_playeractionpropcounts a, bfl_playeractioncounts b set a.sel=b.instances where a.gameid=b.gameid and a.playerid=b.playerid and a.player=b.player and b.actiontype='sel';
+update bfl_playeractionpropcounts a, bfl_playeractioncounts b set a.seld=b.instances where a.gameid=b.gameid and a.playerid=b.playerid and a.player=b.player and b.actiontype='seld';
+update bfl_playeractionpropcounts a, bfl_playeractioncounts b set a.tr=b.instances where a.gameid=b.gameid and a.playerid=b.playerid and a.player=b.player and b.actiontype='tr';
+update bfl_playeractionpropcounts a, bfl_playeractioncounts b set a.u=b.instances where a.gameid=b.gameid and a.playerid=b.playerid and a.player=b.player and b.actiontype='u';
+
+create table bfl_playeractionprops (like bfl_playeractionpropcounts);
+
+delete from bfl_playeractionprops;
+
+insert into bfl_playeractionprops select playerid,gameid,player,total,a/total,atk/total,b/total,cancel/total,f/total,hk/total,m/total,mapAbl/total,mapAtk/total,mapRCClick/total,rc/total,sel/total,seld/total,tr/total,u/total from bfl_playeractionpropcounts where total > 0;
+

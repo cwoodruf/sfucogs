@@ -1,0 +1,15 @@
+CREATE TABLE `template_chatlevel` (
+  `GameID` int(11) DEFAULT NULL,
+  `PlayerID` int(11) DEFAULT NULL,
+  `Time` time DEFAULT NULL,
+  `Player` varbinary(128) DEFAULT NULL,
+  `SentTo` varbinary(128) DEFAULT NULL,
+  `Message` blob DEFAULT NULL,
+  `RowID` double NOT NULL AUTO_INCREMENT,
+  `game_date` datetime DEFAULT NULL,
+  PRIMARY KEY (`RowID`),
+  UNIQUE KEY `bfl_chatlevel_idx` (`GameID`,`PlayerID`,`Time`,`Player`,`SentTo`,`Message`(255)),
+  KEY `PlayerID` (`PlayerID`),
+  KEY `GameID` (`GameID`)
+) ENGINE=MyISAM AUTO_INCREMENT=0 CHARSET=utf8;
+

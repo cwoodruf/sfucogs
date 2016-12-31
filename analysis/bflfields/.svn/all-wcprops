@@ -1,0 +1,869 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/cslabsvn/!svn/ver/2775/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields
+END
+field_mapatkpermin.py
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_mapatkpermin.py
+END
+ability.py
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/ability.py
+END
+field_hotkeyassignperminstd.py
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_hotkeyassignperminstd.py
+END
+field_surveyplayerrace.py
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cslabsvn/!svn/ver/2055/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_surveyplayerrace.py
+END
+field_gamedate.py
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/cslabsvn/!svn/ver/2055/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_gamedate.py
+END
+field_pacdurationsstd.py
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cslabsvn/!svn/ver/2085/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_pacdurationsstd.py
+END
+field_actiontypeothertrlatencymean.py
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypeothertrlatencymean.py
+END
+field_actiontypefirstmaprcclicklatencystd.py
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypefirstmaprcclicklatencystd.py
+END
+field_complexabilityperminnorepeatsgt.py
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_complexabilityperminnorepeatsgt.py
+END
+field_paccount.py
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/cslabsvn/!svn/ver/2059/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_paccount.py
+END
+field_actiontypeotheralatencystd.py
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypeotheralatencystd.py
+END
+field_nonpacfixdurationsmean.py
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/cslabsvn/!svn/ver/2085/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_nonpacfixdurationsmean.py
+END
+filter.py
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/cslabsvn/!svn/ver/2537/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/filter.py
+END
+field_is_competitive.py
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cslabsvn/!svn/ver/2055/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_is_competitive.py
+END
+field_actiontypefirstmapabllatencymean.py
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypefirstmapabllatencymean.py
+END
+field_paccountoverfixcount.py
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cslabsvn/!svn/ver/2085/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_paccountoverfixcount.py
+END
+field_nonpacfixdurationsstd.py
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cslabsvn/!svn/ver/2085/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_nonpacfixdurationsstd.py
+END
+field_rcpropoffscreenall.py
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cslabsvn/!svn/ver/2092/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_rcpropoffscreenall.py
+END
+field_complexabilityperminnorepeatsut.py
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_complexabilityperminnorepeatsut.py
+END
+field_paccontentsmeanstd.py
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cslabsvn/!svn/ver/2085/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_paccontentsmeanstd.py
+END
+field_fixdurationmean.py
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cslabsvn/!svn/ver/2059/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_fixdurationmean.py
+END
+field_meanpacactiondiffmax.py
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cslabsvn/!svn/ver/2085/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_meanpacactiondiffmax.py
+END
+field_atkperminstd.py
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_atkperminstd.py
+END
+field_actiontypeothermaprcclicklatencystd.py
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypeothermaprcclicklatencystd.py
+END
+field_actiontypefirstmapatklatencymean.py
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypefirstmapatklatencymean.py
+END
+field_actiontypefirstblatencymean.py
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypefirstblatencymean.py
+END
+field_gametype.py
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/cslabsvn/!svn/ver/2055/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_gametype.py
+END
+field_actiontypefirstflatencymean.py
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypefirstflatencymean.py
+END
+field_numonplayerteam.py
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cslabsvn/!svn/ver/2055/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_numonplayerteam.py
+END
+field_actiontypeotherflatencystd.py
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypeotherflatencystd.py
+END
+field_actiontypefirstatklatencystd.py
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypefirstatklatencystd.py
+END
+field_actiontypefirstalatencystd.py
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypefirstalatencystd.py
+END
+field_actiontypeotherhklatencymean.py
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypeotherhklatencymean.py
+END
+field_gameid.py
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/cslabsvn/!svn/ver/2055/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_gameid.py
+END
+field_distancebetweenfixationsmean.py
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cslabsvn/!svn/ver/2085/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_distancebetweenfixationsmean.py
+END
+field_buildorder.py
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/cslabsvn/!svn/ver/2092/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_buildorder.py
+END
+field_actiontypefirstmaprcclicklatencymean.py
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypefirstmaprcclicklatencymean.py
+END
+field_actiontypeotherblatencymean.py
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypeotherblatencymean.py
+END
+field_complexabilitypermingtstd.py
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_complexabilitypermingtstd.py
+END
+field_actiontypeotherflatencymean.py
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypeotherflatencymean.py
+END
+field_actiontypefirstatklatencymean.py
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypefirstatklatencymean.py
+END
+field_fixdurationmedian.py
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cslabsvn/!svn/ver/2059/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_fixdurationmedian.py
+END
+field_apm.py
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_apm.py
+END
+field_gameversion.py
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cslabsvn/!svn/ver/2055/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_gameversion.py
+END
+field_actiontypefirstmapatklatencystd.py
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypefirstmapatklatencystd.py
+END
+field_hotkeyassignpermin.py
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_hotkeyassignpermin.py
+END
+field_actiontypefirstsellatencystd.py
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypefirstsellatencystd.py
+END
+field_format.py
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/cslabsvn/!svn/ver/2055/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_format.py
+END
+field_actiontypefirstflatencystd.py
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypefirstflatencystd.py
+END
+time.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/time.py
+END
+perminfield.py
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/perminfield.py
+END
+field_buildsqueued.py
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cslabsvn/!svn/ver/2059/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_buildsqueued.py
+END
+field_pacactionlatencystd.py
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cslabsvn/!svn/ver/2085/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_pacactionlatencystd.py
+END
+field_failedactionpermin.py
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_failedactionpermin.py
+END
+field_meanpacactiondiffmin.py
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cslabsvn/!svn/ver/2085/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_meanpacactiondiffmin.py
+END
+field_actiontypefirstmapabllatencystd.py
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypefirstmapabllatencystd.py
+END
+field_speed.py
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/cslabsvn/!svn/ver/2055/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_speed.py
+END
+field_ladderseason.py
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cslabsvn/!svn/ver/2055/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_ladderseason.py
+END
+field_latencytofixationmean.py
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cslabsvn/!svn/ver/2085/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_latencytofixationmean.py
+END
+field_actiontypefirsthklatencystd.py
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypefirsthklatencystd.py
+END
+field_fixdurationstd.py
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cslabsvn/!svn/ver/2059/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_fixdurationstd.py
+END
+field_actiontypefirstalatencymean.py
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypefirstalatencymean.py
+END
+field_actiontypeothermapatklatencystd.py
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypeothermapatklatencystd.py
+END
+field_distancebetweenpacsmean.py
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/cslabsvn/!svn/ver/2085/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_distancebetweenpacsmean.py
+END
+field_maprcpermin.py
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_maprcpermin.py
+END
+field_actiontypeothermapabllatencymean.py
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypeothermapabllatencymean.py
+END
+field_failssectionscount.py
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cslabsvn/!svn/ver/2059/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_failssectionscount.py
+END
+field_allymatchup.py
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cslabsvn/!svn/ver/2059/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_allymatchup.py
+END
+field_opponentmatchup.py
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cslabsvn/!svn/ver/2059/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_opponentmatchup.py
+END
+field_maxplayertimestamp.py
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cslabsvn/!svn/ver/2055/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_maxplayertimestamp.py
+END
+field_distancebetweenpacsmeanstd.py
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cslabsvn/!svn/ver/2085/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_distancebetweenpacsmeanstd.py
+END
+field_trainordersurvey.py
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cslabsvn/!svn/ver/2059/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_trainordersurvey.py
+END
+field_workerstrainedperminstd.py
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_workerstrainedperminstd.py
+END
+field_pacperminstd.py
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_pacperminstd.py
+END
+field_actiontypeothermapabllatencystd.py
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypeothermapabllatencystd.py
+END
+field_focusatkpermin.py
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_focusatkpermin.py
+END
+field_meanpacactiondiffmean.py
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cslabsvn/!svn/ver/2085/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_meanpacactiondiffmean.py
+END
+field_actiontypeotherhklatencystd.py
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypeotherhklatencystd.py
+END
+field_actiontypeothermapatklatencymean.py
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypeothermapatklatencymean.py
+END
+field_mapatkperminstd.py
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_mapatkperminstd.py
+END
+field_actiontypeotheralatencymean.py
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypeotheralatencymean.py
+END
+field_actiontypeothersellatencymean.py
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypeothersellatencymean.py
+END
+field_mapablpermin.py
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_mapablpermin.py
+END
+field_actiontypeotheratklatencystd.py
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypeotheratklatencystd.py
+END
+field_newviewcost.py
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cslabsvn/!svn/ver/2085/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_newviewcost.py
+END
+field_mapname.py
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/cslabsvn/!svn/ver/2055/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_mapname.py
+END
+field_pacactionlatencymax.py
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cslabsvn/!svn/ver/2085/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_pacactionlatencymax.py
+END
+field_rcoffscreenall.py
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cslabsvn/!svn/ver/2092/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_rcoffscreenall.py
+END
+field_hotkeyselectperminstd.py
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_hotkeyselectperminstd.py
+END
+field_complexabilitypermingt.py
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_complexabilitypermingt.py
+END
+field_actiontypeothermaprcclicklatencymean.py
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypeothermaprcclicklatencymean.py
+END
+field_sha1.py
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_sha1.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/__init__.py
+END
+field_fixcount.py
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/cslabsvn/!svn/ver/2059/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_fixcount.py
+END
+field_pacdurationminusfixduration.py
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cslabsvn/!svn/ver/2085/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_pacdurationminusfixduration.py
+END
+field_atkoffscreenall.py
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cslabsvn/!svn/ver/2092/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_atkoffscreenall.py
+END
+field_atkpropoffscreenall.py
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cslabsvn/!svn/ver/2775/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_atkpropoffscreenall.py
+END
+field_complexabilityperminut.py
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_complexabilityperminut.py
+END
+field_mapatkproportion.py
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cslabsvn/!svn/ver/2059/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_mapatkproportion.py
+END
+field_workerstrainedpermin.py
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_workerstrainedpermin.py
+END
+field_pacpermin.py
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_pacpermin.py
+END
+field_actiontypeotherblatencystd.py
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypeotherblatencystd.py
+END
+field_actiontypefirsttrlatencymean.py
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypefirsttrlatencymean.py
+END
+field_focusrcpermin.py
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_focusrcpermin.py
+END
+field_latencytofixationstd.py
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cslabsvn/!svn/ver/2085/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_latencytofixationstd.py
+END
+field_actiontypeothersellatencystd.py
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypeothersellatencystd.py
+END
+field_timeofday.py
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/cslabsvn/!svn/ver/2055/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_timeofday.py
+END
+field_mapablperminstd.py
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_mapablperminstd.py
+END
+field_pacactionlatencymean.py
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cslabsvn/!svn/ver/2085/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_pacactionlatencymean.py
+END
+field_actionsqueuedpermin.py
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actionsqueuedpermin.py
+END
+field_apmstd.py
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/cslabsvn/!svn/ver/2059/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_apmstd.py
+END
+field_trainorderopp.py
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cslabsvn/!svn/ver/2092/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_trainorderopp.py
+END
+field_pacableactionsoutsidepacprop.py
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cslabsvn/!svn/ver/2085/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_pacableactionsoutsidepacprop.py
+END
+field_complexunitsmadepermin.py
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_complexunitsmadepermin.py
+END
+field_totalqueued.py
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cslabsvn/!svn/ver/2059/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_totalqueued.py
+END
+field_pacdurationsmean.py
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cslabsvn/!svn/ver/2085/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_pacdurationsmean.py
+END
+field_winloss.py
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/cslabsvn/!svn/ver/2055/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_winloss.py
+END
+field_actionsqueuedperminstd.py
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actionsqueuedperminstd.py
+END
+field_maxgametimestamp.py
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cslabsvn/!svn/ver/2055/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_maxgametimestamp.py
+END
+field_focusatkperminstd.py
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_focusatkperminstd.py
+END
+field_complexunitsmadeperminstd.py
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_complexunitsmadeperminstd.py
+END
+field_failedactionperminstd.py
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_failedactionperminstd.py
+END
+field_playerid.py
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/cslabsvn/!svn/ver/2055/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_playerid.py
+END
+field_uniquehotkeys.py
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cslabsvn/!svn/ver/2059/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_uniquehotkeys.py
+END
+field_hotkeyselectpermin.py
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_hotkeyselectpermin.py
+END
+field_paccontentsmean.py
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cslabsvn/!svn/ver/2085/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_paccontentsmean.py
+END
+field_totalplayers.py
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cslabsvn/!svn/ver/2055/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_totalplayers.py
+END
+paclatencyfield.py
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/paclatencyfield.py
+END
+field_actiontypefirstblatencystd.py
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypefirstblatencystd.py
+END
+field_maprcperminstd.py
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_maprcperminstd.py
+END
+field_actiontypefirsttrlatencystd.py
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypefirsttrlatencystd.py
+END
+field_player1noquote.py
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cslabsvn/!svn/ver/2055/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_player1noquote.py
+END
+gen.pl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/cslabsvn/!svn/ver/2065/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/gen.pl
+END
+field_focusrcperminstd.py
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_focusrcperminstd.py
+END
+field_atkpermin.py
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_atkpermin.py
+END
+fields.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/cslabsvn/!svn/ver/2053/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/fields.txt
+END
+field_actiontypefirsthklatencymean.py
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypefirsthklatencymean.py
+END
+field_failstimewasteseconds.py
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cslabsvn/!svn/ver/2059/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_failstimewasteseconds.py
+END
+field_actiontypeotheratklatencymean.py
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypeotheratklatencymean.py
+END
+field_meanpacactiondiffstd.py
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cslabsvn/!svn/ver/2085/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_meanpacactiondiffstd.py
+END
+field_fixcountpermin.py
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_fixcountpermin.py
+END
+field_actiontypefirstsellatencymean.py
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypefirstsellatencymean.py
+END
+field_complexunitsmade.py
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cslabsvn/!svn/ver/2059/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_complexunitsmade.py
+END
+field_actiontypeothertrlatencystd.py
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cslabsvn/!svn/ver/2057/public/projects/Starcraft/BFL/LocalParsing/bin/bflfields/field_actiontypeothertrlatencystd.py
+END

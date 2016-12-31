@@ -1,0 +1,26 @@
+-- 
+-- see other_bfl_tables.mysql for game,player and chat table definitions
+-- 
+drop table if exists template_replaylevel;
+CREATE TABLE template_replaylevel (
+  `GameID` double DEFAULT NULL,
+  `TimeStamp` double DEFAULT NULL,
+  `Player` varbinary(100) DEFAULT NULL,
+  `ActionType` varchar(16) DEFAULT NULL,
+  `ScreenX` double DEFAULT NULL,
+  `ScreenY` double DEFAULT NULL,
+  `Action` varchar(100) DEFAULT NULL,
+  `Target` varchar(100) DEFAULT NULL,
+  `ActionX` double DEFAULT NULL,
+  `ActionY` double DEFAULT NULL,
+  `Queued` double DEFAULT NULL,
+  `Errors` text,
+  `RowID` double NOT NULL AUTO_INCREMENT,
+  `actionstr` text,
+  PRIMARY KEY (`RowID`),
+  KEY `GameID` (`GameID`),
+  KEY `TimeStamp` (`TimeStamp`),
+  KEY `Player` (`Player`),
+  KEY `ActionType` (`ActionType`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+

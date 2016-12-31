@@ -1,0 +1,4 @@
+CREATE TABLE `bfl_actioncounts` (\n  `playerid` int(11) NOT NULL DEFAULT '0',\n  `gameid` int(11) NOT NULL DEFAULT '0',\n  `actiontype` varchar(16) NOT NULL DEFAULT '',\n  `instances` int(11) DEFAULT NULL,\n  PRIMARY KEY (`playerid`,`gameid`,`actiontype`)\n) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+CREATE TABLE `bfl_playeractioncounts` (\n  `playerid` int(11) NOT NULL DEFAULT '0',\n  `gameid` int(11) NOT NULL DEFAULT '0',\n  `player` varbinary(128) NOT NULL DEFAULT '',\n  `actiontype` varchar(16) NOT NULL DEFAULT '',\n  `instances` int(11) DEFAULT NULL,\n  PRIMARY KEY (`playerid`,`gameid`,`player`,`actiontype`)\n) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+

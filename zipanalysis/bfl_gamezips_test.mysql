@@ -1,0 +1,7 @@
+select @n:=count(*),@ss:=sum((ratio-shuffle_ratio) * (ratio-shuffle_ratio)),@s:=sum((ratio-shuffle_ratio))*sum((ratio-shuffle_ratio)),@d:=avg(ratio-shuffle_ratio) from bfl_gamezips \G
+select @sd:=sqrt((@ss - @s/@n)/(@n-1));
+select @se:=sqrt(@sd*@sd/@n);
+select @t:=@d/@se;
+select @effect_size:=@d/@sd;
+select @delta:=@effect_size*sqrt(@n/2);
+

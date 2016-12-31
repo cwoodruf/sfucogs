@@ -1,0 +1,54 @@
+tee comparecs23_tests.out
+select avg(ldiff),stddev_samp(ldiff),count(*) from (select b.actionlatency-c.actionlatency ldiff from comparecs23 a join comparecs23 b join comparecs23 c on (a.rowid=b.rowid-1 and b.rowid=c.rowid-1 and ((a.zipseq = 0 and b.zipseq = 1 and c.zipseq = 2) or (a.zipseq = 1 and b.zipseq = 1 and c.zipseq = 2)))) a;
+select avg(ldiff),stddev_samp(ldiff),count(*) from (select a.actionlatency-b.actionlatency ldiff from comparecs23 a join comparecs23 b on (a.rowid=b.rowid-1 and a.zipseq = 2 and b.zipseq = 2)) a;
+select (0.0000007891873433307471 - -0.03893144974190592)/sqrt(pow(0.7222671475709003,2)/3091435+pow(0.9259161088682687,2)/268069);
+select avg(ldiff),stddev_samp(ldiff),count(*) from (select a.actionlatency-b.actionlatency ldiff from comparecs23 a join comparecs23 b on (a.rowid=b.rowid-1 and a.zipseq = 1 and b.zipseq = 2)) a;
+select (0.0000007891873433307471 - 0.019258168909994575)/sqrt(pow(0.7222671475709003,2)/3091435+pow(0.9036082673538437,2)/546369);
+select avg(ldiff),stddev_samp(ldiff),count(*) from (select (a.actionlatency+b.actionlatency)/2 ldiff from comparecs23 a join comparecs23 b on (a.rowid=b.rowid-1 and a.zipseq = 2 and b.zipseq = 2)) a;
+select avg(ldiff),stddev_samp(ldiff),count(*) from (select c.actionlatency ldiff from comparecs23 a join comparecs23 b join comparecs23 c on (a.rowid=b.rowid-1 and b.rowid=c.rowid-1 and ((a.zipseq = 0 and b.zipseq = 1 and c.zipseq = 2) or (a.zipseq = 1 and b.zipseq = 1 and c.zipseq = 2)))) a;
+select (0.3896828949704007 - 0.5691991524621773)/sqrt(pow(0.4437037640039451,2)/3091435 + pow(0.7076334496697851,2)/268069);
+select avg(ldiff),stddev_samp(ldiff),count(*) from (select b.actionlatency ldiff from comparecs23 b join comparecs23 c on (b.rowid=c.rowid-1 and b.zipseq = 1 and c.zipseq = 2)) a;
+select avg(ldiff),stddev_samp(ldiff),count(*) from (select b.actionlatency ldiff from comparecs23 a join comparecs23 b join comparecs23 c on (a.rowid=b.rowid-1 and b.rowid=c.rowid-1 and ((a.zipseq = 0 and b.zipseq = 1 and c.zipseq = 2) or (a.zipseq = 1 and b.zipseq = 1 and c.zipseq = 2)))) a;
+select (0.3896828949704007 - 0.5722741206240134)/sqrt(pow(0.4437037640039451,2)/3091435 + pow(0.6945151160283485,2)/546369);
+select (0.3896828949704007 - 0.5302677027201121)/sqrt(pow(0.4437037640039451,2)/3091435 + pow(0.6936678182012774,2)/268069);
+select (0.5722741206240134 - 0.5302677027201121)/sqrt(pow(0.6945151160283485,2)/546369 + pow(0.6936678182012774,2)/268069);
+select avg(ldiff),stddev_samp(ldiff),count(*) from (select b.actionlatency ldiff from comparecs23 a join comparecs23 b join comparecs23 c on (a.rowid=b.rowid-1 and b.rowid=c.rowid-1 and ((a.zipseq = 2 and b.zipseq = 1 and c.zipseq = 2)))) a;
+select (0.5722741206240134 - 0.6127362781549996)/sqrt(pow(0.6945151160283485,2)/546369 + pow(0.6929279004008353,2)/278300);
+select (0.3896828949704007 - 0.5722741206240134)*1000;
+select avg(ldiff),stddev_samp(ldiff),count(*) from (select b.actionlatency ldiff from comparecs23 b join comparecs23 c on (b.rowid=c.rowid-1 and b.zipseq = 0 and c.zipseq = 0)) a;
+select avg(ldiff),stddev_samp(ldiff),count(*) from (select (a.actionlatency+b.actionlatency)/2 ldiff from comparecs23 b join comparecs23 c on (b.rowid=c.rowid-1 and b.zipseq = 0 and c.zipseq = 0)) a;
+select avg(ldiff),stddev_samp(ldiff),count(*) from (select (c.actionlatency+b.actionlatency)/2 ldiff from comparecs23 b join comparecs23 c on (b.rowid=c.rowid-1 and b.zipseq = 0 and c.zipseq = 0)) a;
+select avg(ldiff),stddev_samp(ldiff),count(*) from (select (c.actionlatency+b.actionlatency)/2 ldiff from comparecs23 b join comparecs23 c on (b.rowid=c.rowid-1 and b.zipseq = 0 and c.zipseq = 1)) a;
+select avg(ldiff),stddev_samp(ldiff),count(*) from (select b.actionlatency ldiff from comparecs23 b join comparecs23 c on (b.rowid=c.rowid-1 and b.zipseq = 0 and c.zipseq = 1)) a;
+select avg(ldiff),stddev_samp(ldiff),count(*) from (select b.actionlatency ldiff from comparecs23 b join comparecs23 c on (b.rowid=c.rowid-1 and b.zipseq = 2 and c.zipseq = 0)) a;
+select avg(actionlatency) from comparecs23;
+select zipseq, avg(actionlatency) from comparecs23 group by zipseq;
+select zipseq, avg(actionlatency) from (select zipoffs,zipchar,zipseq,avg(actionlatency) actionlatency comparecs23 group by zipoffs,zipchar,zipseq) a group by zipseq;
+select zipseq, avg(actionlatency) from (select zipoffs,zipchar,zipseq,avg(actionlatency) actionlatency from comparecs23 group by zipoffs,zipchar,zipseq) a group by zipseq;
+select zipseq, avg(actionlatency), count(*) from (select zipoffs,zipchar,zipseq,avg(actionlatency) actionlatency from comparecs23 group by zipoffs,zipchar,zipseq) a group by zipseq;
+select zipseq, avg(actionlatency), count(*) from (select gameid,zipoffs,zipchar,zipseq,avg(actionlatency) actionlatency from comparecs23 group by gameid,zipoffs,zipchar,zipseq) a group by zipseq;
+select (0.5936541155072831 - 0.5832830215279708);
+select zipseq, avg(actionlatency), stddev_samp(actionlatency), count(*) from (select gameid,zipoffs,zipchar,zipseq,avg(actionlatency) actionlatency from comparecs23 group by gameid,zipoffs,zipchar,zipseq) a group by zipseq;
+select (0.5832830215279708 - 0.51404913829596)/sqrt(pow(0.6824341179629643, 2)/546369+pow(0.6677694511834217,2)/2280329);
+select (0.5936541155072831 - 0.51404913829596)/sqrt(pow(0.8487830536461693, 2)/364161+pow(0.6677694511834217,2)/2280329);
+select (0.5936541155072831 - 0.5832830215279708)/sqrt(pow(0.8487830536461693, 2)/364161+pow(0.6824341179629643,2)/546369);
+
+--
+-- differences at transition points: these seem less significant - i.e. no strict transition
+-- 
+
+select count(if(ldiff > 0,1,null)) pos, count(if(ldiff > 0,null,1)) neg0,count(*) from (select b.actionlatency-c.actionlatency ldiff from comparecs23 b join comparecs23 c on (b.rowid=c.rowid-1 and b.zipseq = 2 and c.zipseq = 0)) a;
+
+select count(if(ldiff > 0,1,null)) pos, count(if(ldiff > 0,null,1)) neg0,count(*) from (select b.actionlatency-c.actionlatency ldiff from comparecs23 b join comparecs23 c on (b.rowid=c.rowid-1 and b.zipseq = 1 and c.zipseq = 2)) a;
+
+select count(if(ldiff > 0,1,null)) pos, count(if(ldiff > 0,null,1)) neg0,count(*) from (select b.actionlatency-c.actionlatency ldiff from comparecs23 b join comparecs23 c on (b.rowid=c.rowid-1 and b.zipseq = 2 and c.zipseq = 2)) a;
+
+select count(if(ldiff > 0,1,null)) pos, count(if(ldiff > 0,null,1)) neg0,count(*) from (select b.actionlatency-c.actionlatency ldiff from comparecs23 b join comparecs23 c on (b.rowid=c.rowid-1 and b.zipseq = 0 and c.zipseq = 0)) a;
+
+select count(if(ldiff > 0,1,null)) pos, count(if(ldiff > 0,null,1)) neg0,count(*) from (select b.actionlatency-c.actionlatency ldiff from comparecs23 b join comparecs23 c on (b.rowid=c.rowid-1 and b.zipseq = 0 and c.zipseq = 1)) a;
+
+select count(if(ldiff > 0,1,null)) pos, count(if(ldiff > 0,null,1)) neg0,count(*) from (select b.actionlatency-c.actionlatency ldiff from comparecs23 b join comparecs23 c on (b.rowid=c.rowid-1 and b.zipseq = 1 and c.zipseq = 1)) a;
+
+ select pair,count(if(ldiff > 0,1,null))-count(if(ldiff > 0,null,1)) pos_vs_neg, count(*) from (select concat(b.zipchar,c.zipchar) pair, b.actionlatency-c.actionlatency ldiff from comparecs23 b join comparecs23 c on (b.rowid=c.rowid-1 and b.zipseq = 1 and c.zipseq = 2)) a group by pair order by pos_vs_neg; 
+
+notee

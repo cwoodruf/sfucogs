@@ -1,0 +1,74 @@
+-- 
+-- see template_replaylevel.mysql for player table definition
+-- 
+CREATE TABLE `bfl_playerlevel` (
+  `GameID` double NOT NULL,
+  `Player` varbinary(128) NOT NULL DEFAULT '',
+  `ReplayLeague` varchar(128) DEFAULT NULL,
+  `Random` double DEFAULT NULL,
+  `Race` varchar(128) DEFAULT NULL,
+  `APM` double DEFAULT NULL,
+  `EAPM` double DEFAULT NULL,
+  `TuringTest` varchar(128) DEFAULT NULL,
+  `Color` varchar(128) DEFAULT NULL,
+  `Team` double DEFAULT NULL,
+  `PlayerID` double NOT NULL,
+  `gameRowID` double NOT NULL,
+  `Winner` int(11) DEFAULT '0',
+  `RowID` int(11) DEFAULT NULL,
+  PRIMARY KEY (`gameRowID`,`Player`),
+  UNIQUE KEY `RowID` (`RowID`),
+  KEY `GameID` (`GameID`),
+  KEY `PlayerID` (`PlayerID`),
+  KEY `Player` (`Player`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+ CREATE TABLE `bfl_gamelevel` (
+  `GameID` double DEFAULT NULL,
+  `File_name` varbinary(255) DEFAULT NULL,
+  `File_Size` double DEFAULT NULL,
+  `Expansion_level` varchar(128) DEFAULT NULL,
+  `Version` varchar(128) DEFAULT NULL,
+  `Date` date DEFAULT NULL,
+  `Time` time DEFAULT NULL,
+  `Recorder_time_zone` double DEFAULT NULL,
+  `Game_length` double DEFAULT NULL,
+  `Game_speed` varchar(128) DEFAULT NULL,
+  `Game_type` varchar(128) DEFAULT NULL,
+  `Format` varchar(128) DEFAULT NULL,
+  `Gateway` varchar(128) DEFAULT NULL,
+  `Clients` varbinary(256) DEFAULT NULL,
+  `Map_name` varbinary(128) DEFAULT NULL,
+  `Map_file` varchar(128) DEFAULT NULL,
+  `Winners` varbinary(128) DEFAULT NULL,
+  `Map_playable_size` varchar(128) DEFAULT NULL,
+  `Map_size` varchar(128) DEFAULT NULL,
+  `Is_competitive` varchar(128) DEFAULT NULL,
+  `Ladder_season` varchar(128) DEFAULT NULL,
+  `RowID` double NOT NULL,
+  `PlayerID` double DEFAULT NULL,
+  `Sha1` varchar(64) DEFAULT NULL,
+  `IsMeaningful` double DEFAULT NULL,
+  `Counts_in_DV` double DEFAULT NULL,
+  `in_master` int(11) DEFAULT '0',
+  PRIMARY KEY (`RowID`),
+  KEY `GameID` (`GameID`),
+  KEY `Winners` (`Winners`),
+  KEY `PlayerID` (`PlayerID`),
+  KEY `bfl_gameid_accepted_idx` (`in_master`,`IsMeaningful`,`Counts_in_DV`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+CREATE TABLE `bfl_gamezips` (
+  `playerid` int(11) NOT NULL DEFAULT '0',
+  `gameid` int(11) NOT NULL DEFAULT '0',
+  `path` varbinary(128) NOT NULL DEFAULT '',
+  `shuffle_path` varbinary(128) DEFAULT NULL,
+  `compressed` int(11) DEFAULT NULL,
+  `uncompressed` int(11) DEFAULT NULL,
+  `ratio` float DEFAULT NULL,
+  `shuffle_compressed` int(11) DEFAULT NULL,
+  `shuffle_uncompressed` int(11) DEFAULT NULL,
+  `shuffle_ratio` float DEFAULT NULL,
+  PRIMARY KEY (`playerid`,`gameid`,`path`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
